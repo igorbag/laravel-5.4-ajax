@@ -176,7 +176,7 @@ Controllers (App / Http / Controladores / CRUDController.Php)
 ?>
 
 
-Modelo CRUD
+## Modelo CRUD ##
 Crie o arquivo blade template ie, resources / views / crud / index.blade.php 
 
   <!DOCTYPE html>
@@ -398,8 +398,9 @@ Crie o arquivo blade template ie, resources / views / crud / index.blade.php
 	
 
 
-Criando Requisições AJAX com Laravel e Jquery
-Criar em Public/js/crud.js
+## Criando Requisições AJAX com Laravel e Jquery ##
+## Criar em Public/js/crud.js ##
+
 var GerenciamentoCrud = {
 buscarPorId: function () {
        var view_url = $("#hidden_view").val();
