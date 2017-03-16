@@ -4,4 +4,5 @@ As funcionalidades CRUD (Criar, Ler, Atualizar e Excluir) são usadas na maioria
 Utilizaremos o banco de dados MySQL, e o primeiro passo é criar a tabela student e users para autenticacao do laravel.
 
 
-Artigo para download: 
+Artigo para download: https://github.com/igorbag/laravel-5.4-ajax/blob/master/CrudLAravelAndAjax.docx
+ 
