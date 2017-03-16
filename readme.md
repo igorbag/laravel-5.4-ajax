@@ -43,7 +43,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## -Tutorial do Projeto - ##
 
-Criação de Crud Usando Jquery e Ajax no Laravel 5.4
+## Criação de Crud Usando Jquery e Ajax no Laravel 5.4 ##
 
 As funcionalidades CRUD (Criar, Ler, Atualizar e Excluir) são usadas na maioria das aplicações web. Aprender operações CRUD são passos muito básicos para aprender qualquer linguagem de programação. Neste artigo eu gostaria de explicar operações básicas CRUD no laravel 5.4 usando jQuery e Ajax. 
 Utilizaremos o banco de dados MySQL, e o primeiro passo é criar a tabela student e users para autenticacao do laravel.
@@ -69,7 +69,7 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-Modelo (app / Student.php)
+## Modelo (app / Student.php) ##
 
 <?php
 namespace App;
@@ -79,7 +79,11 @@ namespace App;
         protected $table = 'student';
     }
 ?>
-Roteamento (routes/web.php)
+
+
+## Roteamento (routes/web.php) ##
+
+
 <?php
 
 
@@ -178,7 +182,7 @@ Controllers (App / Http / Controladores / CRUDController.Php)
 
 ## Modelo CRUD ##
 Crie o arquivo blade template ie, resources / views / crud / index.blade.php 
-
+<pre>
   <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -395,6 +399,7 @@ Crie o arquivo blade template ie, resources / views / crud / index.blade.php
       <script type="text/javascript" src="{!! asset('js/crud.js') !!}"></script>
   </body>
 </html>
+</pre>
 	
 
 
